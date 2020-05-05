@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="6" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30154" started-at="2020-05-05T11:50:47 IST" finished-at="2020-05-05T11:51:17 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="30154" started-at="2020-05-05T11:50:47 IST" finished-at="2020-05-05T11:51:17 IST">
+      <class name="com.inetbanking.test_cases.TestCase_003_AddCustomer">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.inetbanking.test_cases.TestCase_003_AddCustomer@5abca1e0]" name="beforeClass" is-config="true" duration-ms="7165" started-at="2020-05-05T11:51:01 IST" finished-at="2020-05-05T11:51:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.inetbanking.test_cases.TestCase_003_AddCustomer@5abca1e0]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-05-05T11:51:08 IST" finished-at="2020-05-05T11:51:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addNewCutomer()[pri:0, instance:com.inetbanking.test_cases.TestCase_003_AddCustomer@5abca1e0]" name="addNewCutomer" duration-ms="8497" started-at="2020-05-05T11:51:08 IST" finished-at="2020-05-05T11:51:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCutomer -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.inetbanking.test_cases.TestCase_003_AddCustomer@5abca1e0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-05T11:51:17 IST" finished-at="2020-05-05T11:51:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.inetbanking.test_cases.TestCase_003_AddCustomer@5abca1e0]" name="afterClass" is-config="true" duration-ms="92" started-at="2020-05-05T11:51:17 IST" finished-at="2020-05-05T11:51:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.inetbanking.test_cases.TestCase_003_AddCustomer -->
+      <class name="com.inetbanking.test_cases.TestCase_001_LoginTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@3632be31]" name="beforeSuite" is-config="true" duration-ms="16" started-at="2020-05-05T11:50:47 IST" finished-at="2020-05-05T11:50:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@3632be31]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-05-05T11:50:47 IST" finished-at="2020-05-05T11:50:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@3632be31]" name="beforeClass" is-config="true" duration-ms="9551" started-at="2020-05-05T11:50:47 IST" finished-at="2020-05-05T11:50:56 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@3632be31]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-05-05T11:50:56 IST" finished-at="2020-05-05T11:50:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@3632be31]" name="loginTest" duration-ms="3756" started-at="2020-05-05T11:50:56 IST" finished-at="2020-05-05T11:51:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@3632be31]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-05-05T11:51:00 IST" finished-at="2020-05-05T11:51:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@3632be31]" name="afterClass" is-config="true" duration-ms="102" started-at="2020-05-05T11:51:00 IST" finished-at="2020-05-05T11:51:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@3632be31]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-05-05T11:51:17 IST" finished-at="2020-05-05T11:51:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@3632be31]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-05-05T11:51:17 IST" finished-at="2020-05-05T11:51:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.inetbanking.test_cases.TestCase_001_LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

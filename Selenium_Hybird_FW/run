@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /Users/dhaliwal_mac/Documents/Eclipse_Workspace/Selenium_Hybird_FW
+mvn clean install
