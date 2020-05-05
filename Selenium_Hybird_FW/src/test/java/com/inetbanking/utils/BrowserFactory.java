@@ -12,11 +12,11 @@ public class BrowserFactory {
 	WebDriver driver;
 	public WebDriver getBrowser(String bName) {
 		if (bName.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "/Users/dhaliwal_mac/Documents/Eclipse_Workspace/Selenium_Hybird_FW/resources/chromedriver");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/resources/chromedriver");
 			driver = new ChromeDriver();
 		}
 		else if (bName.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.gecko.driver", "/Users/dhaliwal_mac/Documents/Eclipse_Workspace/Selenium_Hybird_FW/resources/geckodriver");
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/resources/geckodriver");
 			driver = new FirefoxDriver();
 		}
 		return driver;

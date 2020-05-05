@@ -18,7 +18,7 @@ public class CaptureScreenShot extends TestHelper {
 		try {
 			TakesScreenshot srcScreenshot = (TakesScreenshot) driver;
 			File srcFile = srcScreenshot.getScreenshotAs(OutputType.FILE);
-			srcFileString = "/Users/dhaliwal_mac/Documents/Eclipse_Workspace/Selenium_Hybird_FW/screenshot/" + fileName + timeStamp + ".png";
+			srcFileString = System.getProperty("user.dir") + "/screenshot/" + fileName + timeStamp + ".png";
 			File destinationFolder = new File(srcFileString);
 			FileUtils.copyFile(srcFile, destinationFolder);
 		} catch (WebDriverException e) {

@@ -10,7 +10,7 @@ public class ReadConfig {
 	Properties properties;
 	public ReadConfig() {
 		try {
-			FileInputStream fileInputStream = new FileInputStream(new File("/Users/dhaliwal_mac/Documents/Eclipse_Workspace/Selenium_Hybird_FW/congifuration/config.properties"));
+			FileInputStream fileInputStream = new FileInputStream(new File(System.getProperty("user.dir") + "/congifuration/config.properties"));
 			properties = new Properties();
 			properties.load(fileInputStream);
 		} catch (FileNotFoundException e) {

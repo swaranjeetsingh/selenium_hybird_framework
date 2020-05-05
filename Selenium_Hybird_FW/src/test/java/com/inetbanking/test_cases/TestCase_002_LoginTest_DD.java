@@ -47,7 +47,7 @@ public class TestCase_002_LoginTest_DD extends TestHelper {
 	
 	@DataProvider(name = "login_data")
 	 String [][] getTestData() throws IOException {
-		String filePath = "/Users/dhaliwal_mac/Documents/Eclipse_Workspace/Selenium_Hybird_FW/resources/Workbook1.xlsx";
+		String filePath = System.getProperty("user.dir") + "/resources/Workbook1.xlsx";
 		String sheetName = "Sheet1";
 		return ExcelUtility.excel(filePath, sheetName);
 	}

@@ -27,7 +27,7 @@ public class CustomListeners extends TestListenerAdapter {
 	  @Override
 	  public void onStart(ITestContext testContext) {
 		  String reportName = "test_report" + timeStampString + ".html";
-		  htmlReporter = new ExtentHtmlReporter("/Users/dhaliwal_mac/Documents/Eclipse_Workspace/Selenium_Hybird_FW/reports/" + reportName);
+		  htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir") + "/reports/" + reportName);
 		  extentReports = new ExtentReports();
 		  extentReports.attachReporter(htmlReporter);
 		  
