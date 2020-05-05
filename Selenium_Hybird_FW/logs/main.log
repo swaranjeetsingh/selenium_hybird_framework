@@ -190,3 +190,4 @@
 2020-05-05 17:29:35,676 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view_en.ftl"): Not found
 2020-05-05 17:29:35,677 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - TemplateLoader.findTemplateSource("v3html/logs-view/v3-html-testrunner-logs-view.ftl"): Found
 2020-05-05 17:29:35,678 +0530 [main] DEBUG (_Log4jLoggerFactory.java:45) - Loading template for "v3html/logs-view/v3-html-testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/dhaliwal_mac/.m2/repository/com/aventstack/extentreports/4.0.0/extentreports-4.0.0.jar!/com/aventstack/extentreports/view/v3html/logs-view/v3-html-testrunner-logs-view.ftl"
+2020-05-05 21:28:35,233 +0530 [main] INFO  (TestHelper.java:41) - Test run using Chrome browser
