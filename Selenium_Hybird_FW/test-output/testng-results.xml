@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="16467" started-at="2020-05-05T15:53:44 IST" finished-at="2020-05-05T15:54:00 IST">
+  <suite name="Suite" duration-ms="21035" started-at="2020-05-11T22:51:10 IST" finished-at="2020-05-11T22:51:31 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="16467" started-at="2020-05-05T15:53:44 IST" finished-at="2020-05-05T15:54:00 IST">
-      <class name="com.inetbanking.test_cases.TestCase_001_LoginTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@e320068]" name="beforeSuite" is-config="true" duration-ms="19" started-at="2020-05-05T15:53:44 IST" finished-at="2020-05-05T15:53:44 IST">
+    <test name="Test" duration-ms="21035" started-at="2020-05-11T22:51:10 IST" finished-at="2020-05-11T22:51:31 IST">
+      <class name="com.inetbanking.test_cases.TestCase_004_Deposit">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.inetbanking.test_cases.TestCase_004_Deposit@e320068]" name="beforeSuite" is-config="true" duration-ms="28" started-at="2020-05-11T22:51:10 IST" finished-at="2020-05-11T22:51:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@e320068]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-05-05T15:53:44 IST" finished-at="2020-05-05T15:53:44 IST">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.inetbanking.test_cases.TestCase_004_Deposit@e320068]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-05-11T22:51:10 IST" finished-at="2020-05-11T22:51:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@e320068]" name="beforeClass" is-config="true" duration-ms="13307" started-at="2020-05-05T15:53:44 IST" finished-at="2020-05-05T15:53:57 IST">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.inetbanking.test_cases.TestCase_004_Deposit@e320068]" name="beforeClass" is-config="true" duration-ms="13802" started-at="2020-05-11T22:51:10 IST" finished-at="2020-05-11T22:51:24 IST">
           <params>
             <param index="0">
               <value>
@@ -26,31 +26,31 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@e320068]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-05-05T15:53:57 IST" finished-at="2020-05-05T15:53:57 IST">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.inetbanking.test_cases.TestCase_004_Deposit@e320068]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-05-11T22:51:24 IST" finished-at="2020-05-11T22:51:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@e320068]" name="loginTest" duration-ms="2258" started-at="2020-05-05T15:53:57 IST" finished-at="2020-05-05T15:54:00 IST">
+        <test-method status="PASS" signature="DepositTest()[pri:0, instance:com.inetbanking.test_cases.TestCase_004_Deposit@e320068]" name="DepositTest" duration-ms="6311" started-at="2020-05-11T22:51:24 IST" finished-at="2020-05-11T22:51:30 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@e320068]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-05T15:54:00 IST" finished-at="2020-05-05T15:54:00 IST">
+        </test-method> <!-- DepositTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.inetbanking.test_cases.TestCase_004_Deposit@e320068]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-05-11T22:51:31 IST" finished-at="2020-05-11T22:51:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@e320068]" name="afterClass" is-config="true" duration-ms="84" started-at="2020-05-05T15:54:00 IST" finished-at="2020-05-05T15:54:00 IST">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.inetbanking.test_cases.TestCase_004_Deposit@e320068]" name="afterClass" is-config="true" duration-ms="151" started-at="2020-05-11T22:51:31 IST" finished-at="2020-05-11T22:51:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@e320068]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-05-05T15:54:00 IST" finished-at="2020-05-05T15:54:00 IST">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.inetbanking.test_cases.TestCase_004_Deposit@e320068]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-05-11T22:51:31 IST" finished-at="2020-05-11T22:51:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.inetbanking.test_cases.TestCase_001_LoginTest@e320068]" name="afterSuite" is-config="true" duration-ms="3" started-at="2020-05-05T15:54:01 IST" finished-at="2020-05-05T15:54:01 IST">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.inetbanking.test_cases.TestCase_004_Deposit@e320068]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-05-11T22:51:32 IST" finished-at="2020-05-11T22:51:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-      </class> <!-- com.inetbanking.test_cases.TestCase_001_LoginTest -->
+      </class> <!-- com.inetbanking.test_cases.TestCase_004_Deposit -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
